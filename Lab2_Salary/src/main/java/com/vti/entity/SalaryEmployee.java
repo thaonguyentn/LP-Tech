@@ -13,7 +13,7 @@ import java.io.Serializable;
 public class SalaryEmployee implements Serializable {
   private static final long serialVersionUID = 1L;
 
-  @Column(name = "DepartmentID")
+  @Column(name = "id")
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
